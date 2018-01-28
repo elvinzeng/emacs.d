@@ -36,6 +36,13 @@
                               "http://melpa.org/packages/"
                             "https://melpa.org/packages/")))
 
+(setq package-archives  
+       '(("gnu"          . "https://mirrors.tuna.tsinghua.edu.cn/elpa/gnu/")
+         ("melpa"        . "https://mirrors.tuna.tsinghua.edu.cn/elpa/melpa/")
+         ("melpa-stable" . "https://mirrors.tuna.tsinghua.edu.cn/elpa/melpa-stable/")
+         ("org"          . "https://mirrors.tuna.tsinghua.edu.cn/elpa/org/")
+         ("marmalade"    . "https://mirrors.tuna.tsinghua.edu.cn/elpa/marmalade/"))) 
+
 ;; NOTE: In case of MELPA problems, the official mirror URL is
 ;; https://www.mirrorservice.org/sites/stable.melpa.org/packages/
 
